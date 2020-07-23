@@ -1,0 +1,135 @@
+/* font-family: 'VT323', monospace; */
+@import url('https://fonts.googleapis.com/css?family=VT323');
+@import url('https://fonts.https://fonts.googleapis.com/css2?family=Cousine&display=swap.com/css?family=VT323');
+
+.header {
+  display: none;
+}
+
+body {
+  width: 10000px;
+  font-family: 'VT323', monospace;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 180px;
+  padding-right: 220px;
+  z-index: 1;
+}
+
+.title {
+  position: fixed;
+  left: 0px;
+  top: 600px;
+  transform: rotate(270deg);
+
+  z-index: -1;
+}
+
+.about-con {
+  position: fixed;
+  right: 0px;
+  width: 330px;
+  height: 100%;
+  background-color: black;
+}
+
+.about {
+  font-size: 17;
+  position: fixed;
+  right: 30px;
+  top: 50px;
+  width: 260px;
+  background-color: black;
+  
+}
+
+.about > p {
+    display: flex;
+    margin-block-start: 0 em;
+}
+
+a {
+display: contents;
+text-decoration: none;
+color: gold;
+}
+
+
+.poster:hover {
+  opacity: 0.5;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 50px;
+}
+
+.poster:hover p {
+  display: inline-block;
+  // mix-blend-mode: difference;
+  
+}
+
+.poster {
+
+  height: 100%;
+  width: 100%;
+
+  margin-left: 20px;
+  margin-right: 20px;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+}
+
+p {
+  display: none;
+}
+
+#blm {
+  background-image: url(pngs/blm_founderspng.png)    
+}
+
+#adam {
+  background-image: url(pngs/adampng.png);
+}
+
+#hotgirls {
+  background-image: url(pngs/getinloserpng.png);
+}
+
+#greetings {
+  background-image: url(pngs/greetingsfrompng.png);
+}
+
+#amgoth {
+  background-image: url(pngs/americangothicpng2.png);
+}
+
+#tarot {
+  background-image: url(pngs/tarot_in_hand_png.png);
+}
+
+#hiker {
+  background-image: url(pngs/hikerpng.png);
+}
+
+#jungle {
+  background-image: url(pngs/junglebookpng.png);
+}
+
+#blackbirds {
+  background-image: url(pngs/blackbird_2_2.png);
+}
