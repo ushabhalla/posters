@@ -20,7 +20,7 @@ body {
   flex-direction: row;
 
   margin-left: 180px;
-  padding-right: 220px;
+  padding-right: 290px;
   z-index: 1;
 }
 
@@ -62,6 +62,10 @@ text-decoration: none;
 color: gold;
 }
 
+#note {
+  font-size: 30;
+  opacity: 100%;
+}
 
 .poster:hover {
   opacity: 0.5;
@@ -76,7 +80,7 @@ color: gold;
 
 .poster:hover p {
   display: inline-block;
-  // mix-blend-mode: difference;
+  /* // mix-blend-mode: difference; */
   
 }
 
@@ -112,6 +116,7 @@ p {
 
 #greetings {
   background-image: url(pngs/greetingsfrompng.png);
+  width: 90%;
 }
 
 #amgoth {
@@ -132,4 +137,8 @@ p {
 
 #blackbirds {
   background-image: url(pngs/blackbird_2_2.png);
+}
+
+#justice {
+  background-image: url(pngs/tarot_cards_png.png);
 }
