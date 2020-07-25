@@ -146,7 +146,11 @@ p {
 @media only screen and (min-width:60em) {
   .mobile {
     display: none;
-  }  
+  }
+  
+  .mobile-title {
+    display: none;
+  }
 }
 
 /* mobile view */
@@ -179,6 +183,10 @@ p {
     /* z-index: -1; */
   }
 
+  #titletext {
+    display: none;
+  }
+  
   .content {
 
     width: 60vh;
