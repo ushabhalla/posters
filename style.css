@@ -103,42 +103,122 @@ p {
 }
 
 #blm {
-  background-image: url(pngs/blm_founderspng.png)    
+  background-image: url(jpgs/blm_founders.jpg)    
 }
 
 #adam {
-  background-image: url(pngs/adampng.png);
+  background-image: url(jpgs/adam.jpg);
 }
 
 #hotgirls {
-  background-image: url(pngs/getinloserpng.png);
+  background-image: url(jpgs/hotgirls.jpg);
 }
 
 #greetings {
-  background-image: url(pngs/greetingsfrompng.png);
+  background-image: url(jpgs/greetings.jpg);
   width: 90%;
 }
 
 #amgoth {
-  background-image: url(pngs/americangothicpng2.png);
+  background-image: url(jpgs/americangothic.jpg);
 }
 
 #tarot {
-  background-image: url(pngs/tarot_in_hand_png.png);
+  background-image: url(jpgs/tarot.jpg);
 }
 
 #hiker {
-  background-image: url(pngs/hikerpng.png);
+  background-image: url(jpgs/mountains.jpg);
 }
 
 #jungle {
-  background-image: url(pngs/junglebookpng.png);
+  background-image: url(jpgs/junglebook.jpg);
 }
 
 #blackbirds {
-  background-image: url(pngs/blackbird_2_2.png);
+  background-image: url(jpgs/blackbirds.jpg);
 }
 
 #justice {
-  background-image: url(pngs/tarot_cards_png.png);
+  background-image: url(jpgs/tarot_cards_png.png);
+}
+
+@media only screen and (min-width:60em) {
+  .mobile {
+    display: none;
+  }  
+}
+
+/* mobile view */
+/* make header texts fit in mobile view*/
+@media only screen and (max-width:60em) {
+  
+  body {
+    width: 100vw;
+    height: 2000px;
+    align-content: center;
+    /* display: inherit; */
+  }
+
+  .mobile {
+    text-align: center;
+  }
+
+  .title {
+    /* position: absolute; */
+    /* top: 10px; */
+    /* left: 10px; */
+    display: absolute;
+    position: unset;
+    top: unset;
+    left: unset;
+    transform: unset;
+    align-content: center;
+    text-align: center;
+    /* transform: rotate(0deg); */
+    /* z-index: -1; */
+  }
+
+  .content {
+
+    width: 60vh;
+    height: 2000px;
+    display: absolute;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-between;
+    overflow-x: hidden;
+
+    margin-left: 0px;
+    margin-right: 0px;
+
+    align-content: center;
+  }
+
+  .poster {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    width: 90%;
+    align-content: center;
+  }
+
+  #note {
+    display: none;
+  }
+
+  .poster:hover {
+    font-size: 20px;
+  }
+
+  .about-con {
+    display: none;
+  }
+
+  .about {
+    display: none;
+  }
+
 }

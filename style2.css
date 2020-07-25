@@ -1,0 +1,38 @@
+/* font-family: 'VT323', monospace; */
+@import url('https://fonts.googleapis.com/css?family=VT323');
+@import url('https://fonts.https://fonts.googleapis.com/css2?family=Cousine&display=swap.com/css?family=VT323');
+
+.header {
+  display: none;
+}
+
+body {
+  width: 100vw;
+  font-family: 'VT323', monospace;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.about-con {
+    margin-top: 60px;
+    margin-left: 3px;
+    margin-right: 3px;
+    text-align: center;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.about {
+  font-size: 14;
+  background-color: black;
+  text-align: center;
+}
+
+a {
+    display: contents;
+    text-decoration: none;
+    color: gold;
+}
