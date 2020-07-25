@@ -166,6 +166,7 @@ p {
 
   .mobile {
     text-align: center;
+    padding-right: 35px;
   }
 
   .title {
@@ -179,6 +180,7 @@ p {
     transform: unset;
     align-content: center;
     text-align: center;
+    padding-right: 35px;
     /* transform: rotate(0deg); */
     /* z-index: -1; */
   }
@@ -186,7 +188,7 @@ p {
   #titletext {
     display: none;
   }
-  
+
   .content {
 
     width: 60vh;
