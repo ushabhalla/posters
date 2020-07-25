@@ -143,6 +143,10 @@ p {
   background-image: url(jpgs/tarot_cards_png.png);
 }
 
+#southasians {
+  background-image: url(jpgs/southasiansforblm.jpg);
+}
+
 @media only screen and (min-width:60em) {
   .mobile {
     display: none;
