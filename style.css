@@ -116,7 +116,6 @@ p {
 
 #greetings {
   background-image: url(jpgs/greetings.jpg);
-  width: 90%;
 }
 
 #amgoth {
@@ -141,6 +140,10 @@ p {
 
 #justice {
   background-image: url(jpgs/tarot_cards_png.png);
+}
+
+#southasians {
+  background-image: url(jpgs/southasiansforblmjpg.jpg);
 }
 
 @media only screen and (min-width:60em) {
